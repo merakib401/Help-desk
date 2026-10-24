@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div className="">
-      <footer className="footer  sm:footer-horizontal bg-base-200 text-base-content p-10">
+      <footer className="footer  sm:footer-horizontal bg-[#000000] text-white p-10 mt-10">
         <nav>
         <h6 className="footer-title"> PH — Assignment System </h6>
          PH Assignment system is a platform that<br/>
@@ -27,7 +27,7 @@ export default function Footer() {
           <a className="link link-hover">Join Us</a>
         </nav>
       </footer>
-      <footer className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
+      <footer className="footer bg-[#000000] text-white border-base-300 border-t px-10 py-4">
         <aside className="grid-flow-col items-center">
           <svg
             width="24"
