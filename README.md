@@ -1,16 +1,43 @@
-# React + Vite
+# 🎫 Customer Support Zone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive issue management dashboard built with React. It helps users view support tickets, track their statuses, and monitor issue priorities through a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📊 **Issue Dashboard** — View the total number of issues in different statuses.
+- 📝 **Ticket Management** — Display support tickets with descriptions and requester information.
+- 🔄 **Status Updates** — Update issue statuses from Pending to Submitted and Reviewed.
+- 🎯 **Priority Indicators** — Identify High, Medium, and Low priority tickets.
+- 🔍 **Status Filtering** — Filter tickets by their current status.
+- 🖼️ **User Information** — Display requester names and profile images.
+- 📱 **Responsive Design** — Adapt the layout to different screen sizes.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- Vite
+- Tailwind CSS
+- DaisyUI
+- HTML5
 
-## Expanding the ESLint configuration
+## 📸 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The dashboard displays support tickets as cards, including requester details, issue descriptions, priority levels, and current statuses. The dashboard also provides status counts for easier issue tracking.
+
+
+## 🎯 Learning Objectives
+
+This project demonstrates practical usage of:
+
+- React components and props
+- State management with `useState`
+- Handling click events
+- Rendering lists using `map()`
+- Filtering and finding array items using `filter()` and `find()`
+- Fetching and displaying data
+- Building responsive layouts with Tailwind CSS
+
+🌐 Live Demo
+
+🚀 View Live Website : https://help-desk-8454e.netlify.app
