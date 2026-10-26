@@ -3,7 +3,7 @@ import { Suspense } from 'react'
 import './App.css'
 import Footer from './Components/Footer/Footer'
 import NavBar from './Components/Navbar/NavBar'
-import Issue from './Issue/Issue'
+import Issue from './Components/Issue/Issue'
 
 
 const fetchData = async () =>{

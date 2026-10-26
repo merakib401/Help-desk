@@ -1,6 +1,6 @@
-import Card from "../Components/Card/Card";
-import CountBox from "../Components/CountBox/CountBox";
-import ToggleBtn from "../Components/ToggleBtn/ToggleBtn";
+import Card from "../Card/Card";
+import CountBox from "../CountBox/CountBox";
+import ToggleBtn from "../ToggleBtn/ToggleBtn";
 import { use, useState } from "react";
 
 export default function Issue({ fetchPromise }) {
@@ -19,11 +19,11 @@ export default function Issue({ fetchPromise }) {
         setToggleStatus={setToggleStatus}
       ></ToggleBtn>
 
-      <div className="grid md:grid-cols-3 gap-3 max-w-11/12 mx-auto ">
+      {filterValue.length == 0 ? <h2 className="text-center text-3xl font-semibold"> No Data</h2> : <div className="grid md:grid-cols-3 gap-3 max-w-11/12 mx-auto ">
         {filterValue.map((issue, ind) => {
-          return <Card key={ind} issue={issue} />;
+          return <Card key={ind} issue={issue} value={value} setValue= {setValue} />;
         })}
-      </div>
+      </div>}
     </div>
   );
 }
